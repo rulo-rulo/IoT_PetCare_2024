@@ -3,7 +3,9 @@ Este repositorio contiene el código fuente de la aplicación Android desarrolla
 
 # 📂 Estructura del Proyecto
 **android/:** Contiene la aplicación Android desarrollada en Android Studio.
+
 **documentacion/:** Carpeta que contiene toda la documentación técnica y funcional del proyecto.
+
 **sensores/:** Carpeta con los códigos en C++ para los sensores que se conectan a través de Arduino.
 
 # 📋 Requisitos
