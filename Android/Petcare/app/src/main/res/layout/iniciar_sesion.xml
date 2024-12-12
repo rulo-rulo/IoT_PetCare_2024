@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="200dp"
         android:background="#C789FA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,11 +67,12 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="195dp"
-        android:layout_height="209dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="142dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="90dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:srcCompat="@drawable/gato" />
 
     <TextView
@@ -176,13 +177,12 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Log in"
         android:textColor="#FFFFFF"
-        android:textSize="45sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
